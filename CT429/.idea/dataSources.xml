@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="jdbc:mysql://127.0.0.1 :3306/quanlybanhang" uuid="381a7c9e-7bb6-43b7-b6fb-d00b23eee527">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1 :3306/quanlybanhang</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="quanlybanhang@127.0.0.1" uuid="415029eb-f1b1-49c5-b2d2-015962909c44">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/quanlybanhang</jdbc-url>
+    </data-source>
+  </component>
+</project>
