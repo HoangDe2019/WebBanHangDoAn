@@ -24,7 +24,7 @@
                   <?php echo $dong['TenHH']; ?>
                 </td>
                 <td align="center">
-                    <img src="modules/quanlychitietsp/uploads/<?php echo $dong['Hinh'];?>" width="60" height="60">
+                    <img src="modules/quanlychitietsp/uploads/<?php echo $dong['Hinh'];?>" width="225" height="225">
                 </td>
                 <td align="center">
                    <?php echo $dong['Gia']; ?>
