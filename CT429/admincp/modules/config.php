@@ -20,7 +20,7 @@
     return $conn;}*/
 	$username = "root"; // Khai báo username
 	$password = "";      // Khai báo password
-	$server   = "localhost";   // Khai báo server
+	$server   = "127.0.0.1";   // Khai báo server
 	$dbname   = "quanlybanhang";      // Khai báo database
 
 // Kết nối database tintuc

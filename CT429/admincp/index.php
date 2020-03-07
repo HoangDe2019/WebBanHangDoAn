@@ -7,6 +7,12 @@
 </head>
 
 <body>
+    <?php
+        session_start();
+//        if(!isset($_SESSION['dangnhap'])){
+//            header('location:index.php');
+//         }
+    ?>
 	<div class="wrapper">
     	<?php
 			include('modules/config.php');
