@@ -9,9 +9,9 @@
 <body>
     <?php
         session_start();
-//        if(!isset($_SESSION['dangnhap'])){
-//            header('location:index.php');
-//         }
+        if(!isset($_SESSION['dangnhap'])){
+           header('location:admincp/index.php');
+        }
     ?>
 	<div class="wrapper">
     	<?php
