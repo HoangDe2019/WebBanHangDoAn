@@ -16,7 +16,7 @@
 
                     $sql = mysqli_query($connect, $query);
                     //echo $sql;
-                    $num = mysqli_num_rows($sql);
+                    $num = mysqli_num_rows($connect,$sql);
                     if ($num > 0) {
                         echo $num." ket qua tra ve voi tu khoa <b>".$search."</b>";
                         echo '<table border="1" cellspacing="0" cellpadding="10">';
